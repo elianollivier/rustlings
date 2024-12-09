@@ -19,7 +19,7 @@ fn main() {
             thread::sleep(Duration::from_millis(250));
 
             // TODO: You must take an action before you update a shared value.
-            status_shared.jobs_done += 1;
+            //status_shared.jobs_done += 1;
         });
         handles.push(handle);
     }
